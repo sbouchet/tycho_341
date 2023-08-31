@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?>
+
+<target name="Custom target" sequenceNumber="1">
+
+    <locations>
+        <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+
+            <!-- A specific plugin -->
+            <unit id="org.eclipse.core.commands" version="3.11.0.v20230317-0802"/>
+
+            <!-- A specific feature -->
+            <unit id="org.eclipse.help.feature.group" version="2.3.1400.v20230605-0440"/>
+
+            <!-- Latest version of a plugin (should be 31.1.0.jre) -->
+            <unit id="com.google.guava" version="0.0.0"/>
+
+            <repository location="https://download.eclipse.org/releases/2023-06/202306141000/"/>
+        </location>
+    </locations>
+
+</target>
